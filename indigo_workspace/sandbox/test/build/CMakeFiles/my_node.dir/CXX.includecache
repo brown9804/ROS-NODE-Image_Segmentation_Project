@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/est/indigo_workspace/sandbox/test/src/my_node.cpp
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+string.h
+-
+
